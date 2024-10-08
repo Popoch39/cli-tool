@@ -1,0 +1,26 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "bin": {
+    "louis": "./dist/index.js"
+},
+"type": "commonjs"
+}
